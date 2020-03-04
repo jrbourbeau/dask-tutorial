@@ -20,4 +20,4 @@ jobs:
           python -m pip install jupyter-repo2docker
 
       - name: Build dask-tutorial Docker image
-        run: jupyter-repo2docker .
+        run: jupyter-repo2docker --no-run .
